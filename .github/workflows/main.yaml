@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-      - name: check directory location
-        run: pwd
+      - name: print out the data inside example.txt
+        run: cat example.txt
